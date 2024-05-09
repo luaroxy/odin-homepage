@@ -1,0 +1,82 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+/* font-family: "Montserrat", sans-serif;
+font-family: "Oswald", sans-serif;*/
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125 rem;
+    line-height: 1.6;
+    color: #2E323F;
+}
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125 rem;
+    line-height: 1.6;
+    color: #2E323F;
+}
+
+img{
+    max-width: 10%;
+}
+
+h1, h2{
+    margin-top: 0;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.1;
+}
+
+.hero{
+    background-color: #407088;
+    color: #FFFF;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.about-me{
+    background-color: #FFFF;
+    color: #132743;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer{
+    background-color: #407088;
+    color: #FFFF;
+    padding: 50px 0;
+}
+
+.footer-content__phone,
+.footer-content__email{
+    display: flex;
+    gap: 10px;
+}
+
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-content__phone-img,
+.footer-content__email-img{
+    width: 20px;
+    height: 100%;
+    align-self: center;
+}
+
+.footer-img{
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+}
